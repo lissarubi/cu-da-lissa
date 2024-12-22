@@ -36,7 +36,7 @@ window.onload = () => {
         let interval = setInterval( () => {
         let faltam = DateMeasure(ferias - new Date())
 
-        if (ferias < new Date){
+        if (ferias < new Date()){
             clearInterval(interval)
             putaria()
         }
